@@ -1,0 +1,13 @@
+FFmpeg Android (arm64-v8a) GPL Build
+------------------------------------
+
+This distribution includes FFmpeg libraries licensed under the GNU General Public License (GPLv3).
+
+Original FFmpeg source: https://ffmpeg.org
+
+Build configuration:
+--enable-gpl --enable-nonfree --enable-shared --disable-static
+Target: arm64-v8a
+Version: 6.0
+
+© 2025 [твое имя]. Distributed under GPLv3.
