@@ -2,7 +2,7 @@
 **Zhivoglas welcomes you!**  
 I present to you my custom build of **FFmpeg for Android (arm64-v8a)**.
 Thanks to the ffmpeg developers.
-💡 *Special thanks to the creators and developers of **ChatGPT** for assistance with documentation and formatting.*
+Special thanks to the creators and developers of **ChatGPT** for assistance with documentation and formatting.
 
 ---
 
@@ -30,20 +30,11 @@ By using these binaries, you agree to comply with the GPLv3 license terms.
 ## 📦 Installation
 
 1. Clone or download this repository.  
-2. Extract the `jniLibs` folder (or `jniLibs.zip` if provided).  
-3. Copy it into your Android project at:  
-   `app/src/main/jniLibs/arm64-v8a/`  
-4. Load the native libraries in your Java/Kotlin code using:
-   ```java
-   System.loadLibrary("avcodec");
-   System.loadLibrary("avformat");
-   System.loadLibrary("avutil");
+2. Extract and copy "arm64-v8a" folder into your Android project at:  
+   `app/src/main/jniLibs/`  
    
 🚀 Usage
 After integration, FFmpeg features can be accessed through JNI or wrappers.
-
-Example command:
-ffmpeg -i input.mp4 -vn -acodec copy output.aac
 
 ⚠️ Important: Any software linked with these binaries must also comply with GPLv3.
 
@@ -52,10 +43,7 @@ This repository is distributed under the
 GNU General Public License v3.0 (GPLv3).
 See the LICENSE file for full terms.
 
-license from source
-GNU GENERAL PUBLIC LICENSE
-Version 3, 29 June 2007
-
+license from source GNU GENERAL PUBLIC LICENSE (Version 3, 29 June 2007)
 Copyright (C) 2007 Free Software Foundation, Inc.
 Everyone is permitted to copy and distribute verbatim copies
 of this license document, but changing it is not allowed.
