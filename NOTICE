@@ -8,6 +8,6 @@ Original FFmpeg source: https://ffmpeg.org
 Build configuration:
 --enable-gpl --enable-nonfree --enable-shared --disable-static
 Target: arm64-v8a
-Version: 6.0
+Version: 8.0
 
-© 2025 [твое имя]. Distributed under GPLv3.
+© 2025 Zhivoglas. Distributed under GPLv3.
