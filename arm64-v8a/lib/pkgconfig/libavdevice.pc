@@ -1,0 +1,14 @@
+prefix=/c/Projects/00/arm64-v8a
+exec_prefix=${prefix}
+libdir=/c/Projects/00/arm64-v8a/lib
+includedir=/c/Projects/00/arm64-v8a/include
+
+Name: libavdevice
+Description: FFmpeg device handling library
+Version: 62.2.100
+Requires: 
+Requires.private: libavfilter >= 11.9.100, libswscale >= 9.3.100, libavformat >= 62.6.101, libavcodec >= 62.19.100, libswresample >= 6.2.100, libavutil >= 60.16.100
+Conflicts:
+Libs: -L${libdir}  -lavdevice 
+Libs.private: -lm -latomic -landroid -lcamera2ndk -lmediandk -pthread
+Cflags: -I${includedir}
